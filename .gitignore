@@ -28,3 +28,10 @@ codekit-config.json
 _asset_bundler_cache
 _site
 README_WEBMASTER.md
+
+# local build + gem bundle
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
