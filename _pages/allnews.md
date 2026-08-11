@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Secure Learning and Control Lab at Uppsala University."
+excerpt: "Liu Research Group news."
 sitemap: false
 permalink: /allnews.html
 ---

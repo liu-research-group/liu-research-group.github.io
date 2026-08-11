@@ -1,57 +1,39 @@
 ---
-title: "Secure Learning and Control Lab - Vacancies"
+title: "Liu Research Group - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
 permalink: /openings
 ---
- 
+
 # Open positions
-[//]: # (At the moment, we do not have any open positions.)
 
-**At the moment, we have the following positions open:**
-* **Deadline April 29, 2026:** 1 PhD position for a [MSCA Doctoral Student in the SecReSy4You Network on Critical Cyber-Physical Systems Security and Resilience, with a Focus on Secure Control Systems under Uncertainty](https://uu.varbi.com/en/what:job/jobID:917304/)
+The Liu Research Group is recruiting its founding members. If you are excited about heat pumps and thermal energy storage, AI and scientific machine learning for buildings, decarbonization, or intelligent building-to-grid control, let's talk.
 
+**We have multiple fully funded PhD positions open, starting Spring 2027 or later.** Funding covers tuition and a competitive stipend.
 
-[//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
+## Who we are looking for
 
+### PhD students
 
-**Note:** Sometimes we do not have funding for additional PhD and postdoc positions. In those periods, we can only welcome you if you have a fellowship or grant. 
+A strong interest in building energy systems, and one or more of: thermodynamics and heat transfer, programming (Python, Julia, or Modelica), controls and optimization, or building energy modeling. Curiosity and persistence matter more than a perfect match on paper.
 
-**Interested in applying to grant?** Take a look at the [VR International Postdoc grant](https://www.vr.se/english/applying-for-funding/calls/2021-11-17-international-post-doc-grant-within-natural-and-engineering-sciences-spring-call.html) or the [Marie Curie Postdoc fellowship](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships). **Get in touch if you would like to apply through our group!**
+### MS students
 
+Interested in thesis research on building energy systems.
 
-## Local thesis projects:
-We are always looking for new group members with passion, talent, and grit!
+### Undergraduate researchers
 
-You will have the chance to work on basic and applied research at the intersection of cybersecurity, control theory, and machine learning. 
+University of Alabama students looking for hands-on research experience.
 
-You will take an acive role in determining the important and interesting research questions to tackle, creating novel scientific methodologies and tailoring them for specific practical applications, developing new adversary models and defense mechanisms, and evaluating the proposed methods on experimental setups.
+## How to apply
 
+Email **[liumz311@gmail.com](mailto:liumz311@gmail.com)** with:
 
+1. Your CV,
+2. Your transcript (unofficial is fine), and
+3. A short note, a few sentences, on your research interests and why our group.
 
-### Past open positions
+Please put **"Prospective student &mdash; [your name]"** in the subject line.
 
-You find some of the past job openings here:
-* [PhD position in Automatic Control focusing on Secure Control Systems]({{ site.baseurl }}/assets/vacancies/PhD_SSF_2023.pdf),
-* [Postdoc positions in Secure Learning and Control]({{ site.baseurl }}/assets/vacancies/PD_SSF_VR_2022.pdf),
-* [PhD in Scientific Computing with focus on Cybersecurity and Machine Learning for Critical Infrastructures]({{ site.baseurl }}/assets/vacancies/PhD_essence_2022.pdf).
-
-### Applications for PhD and Postdoc positions
-Applications for fully-funded PhD or Postdoc positions can only be done for a specific advertisement and through the [official application portal](https://uu.varbi.com/). All positions at Uppsala University are advertised at the [university website](https://www.uu.se/en/about-uu/join-us/jobs/).
-
-Other types of PhD and Postdoc positions may also be possible, for instance through the applicant's own fellowship or scholarship. If you are interested in working with us as a PhD student or postdoc, please send an [email](mailto:andre.teixeira@it.uu.se). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate.
-
-
-### Master and Bachelor projects for Uppsala University students
-If you are a Master or Bachelor student at Uppsala University looking for a degree project, contact me (or any group member) per email or drop by my office.
-
-At the moment, we have several proposals for MSc thesis projects at our group, candidates are interviewed continuously **until early December 2023**. See [the list and details](https://tinyurl.com/MSc-SysCon-GD) for how to apply!
-
-### Master students from elsewhere
-If you are interested in pursuing a Master degree at Uppsala University, see [the University's website](https://www.uu.se/en/admissions/master/). We may take external master students for a degree project or a short stay on their own funding, if we get exceptional applicants (this usually means very good grades and a personal recommendation).
-
-
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/UU_students_ad_photo.jpg" width="95%">
-</figure>
+Prospective PhD applicants should also apply through the [Department of Civil, Construction and Environmental Engineering](https://cce.eng.ua.edu/) at the University of Alabama. Get in touch before you apply &mdash; it helps to know you are coming.
