@@ -3,18 +3,18 @@ title: "Liu Research Group - Publications"
 layout: gridlay
 excerpt: "Liu Research Group -- Publications."
 sitemap: false
-years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010]
+years: [2026, 2025, 2024, 2020, 2019]
 permalink: /publications/
 ---
 <!-- _pages/publications.md -->
 
 # Publications
 
-(See also the personal webpage of our group members)
+Peer-reviewed journal articles, newest first. Conference papers, ASHRAE and Modelica proceedings and presentations are on [Google Scholar](https://scholar.google.com/citations?user=FRH4bwcAAAAJ&hl=en).
 
 ## Group Highlights
 
-(For a full list of publications, see [below](#list-of-publications), and see also the personal webpage of our group members)
+A few papers that best represent what the group works on. The complete list follows [below](#list-of-publications).
 
 
 {% assign number_printed = 0 %}
@@ -31,10 +31,10 @@ permalink: /publications/
 <div class="col-sm-12 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />
+  {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />{% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+  {% if publi.link.url %}<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>{% endif %}
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>
@@ -43,10 +43,10 @@ permalink: /publications/
 <div class="col-sm-12 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="40%" style="float: left" />
+  {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="40%" style="float: left" />{% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+  {% if publi.link.url %}<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>{% endif %}
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>
@@ -73,14 +73,6 @@ permalink: /publications/
 
 ## List of Publications
 
-### Under Review
-<div class="publications">
-  
-{% bibliography -f papers -q @*[published={{0}}]* %}
-
-</div>
-
-### Published
 <div class="publications">
 
 {%- for y in page.years %}

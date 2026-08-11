@@ -1,1 +1,65 @@
-# (none yet)
+- title: "Comparative study of energy flexibility in model predictive control of single- and variable-speed heat pumps with active thermal energy storage"
+  image:
+  description: "Model predictive control of single- and variable-speed heat pumps coupled with active thermal energy storage, compared for the energy flexibility they can deliver to buildings."
+  authors: "Mingzhe Liu, Yuhang Zhang, Zhiyao Yang, Zheng O'Neill"
+  year: 2026
+  link:
+    url: https://doi.org/10.1016/j.energy.2026.141387
+    display: "Energy (2026)"
+  highlight: 1
+  long: 0
+
+- title: "Scientific machine learning (SciML) for building technology: A new paradigm for design and operations"
+  image:
+  description: "A scientific machine learning paradigm uniting physics-based models with data-driven learning for building design and operations."
+  authors: "Mingzhe Liu, Zheng O'Neill, Jin Wen, Teresa Wu, Bing Dong, Zhiyao Yang"
+  year: 2026
+  link:
+    url: https://doi.org/10.1016/j.buildenv.2026.114518
+    display: "Building and Environment (2026)"
+  highlight: 1
+  long: 0
+
+- title: "Multidisciplinary modeling and evaluation of hybrid hydrogel desiccant coated heat exchanger"
+  image:
+  description: "Multidisciplinary modeling and experimental evaluation of a hybrid hydrogel desiccant-coated heat exchanger for efficient dehumidification."
+  authors: "Mingzhe Liu, Nathaniel Smith, Hang Guan, Zhiyao Yang, Yunchan Lee, So Hee Nah, Shu Yang, Zheng O'Neill"
+  year: 2026
+  link:
+    url: https://doi.org/10.1016/j.applthermaleng.2026.130927
+    display: "Applied Thermal Engineering (2026)"
+  highlight: 1
+  long: 0
+
+- title: "Large language models for building energy applications: Opportunities and challenges"
+  image:
+  description: "Opportunities and challenges of applying large language models across building energy modeling, control and operations."
+  authors: "Mingzhe Liu, Liang Zhang, Jianli Chen, Wei-An Chen, Zhiyao Yang, L. James Lo, Jin Wen, Zheng O'Neill"
+  year: 2025
+  link:
+    url: https://doi.org/10.1007/s12273-025-1235-9
+    display: "Building Simulation (2025)"
+  highlight: 1
+  long: 0
+
+- title: "Expert-guided imitation learning for energy management: Evaluating GAIL's performance in building control applications"
+  image:
+  description: "Generative adversarial imitation learning for building energy management, benchmarked against expert and learning-based controllers."
+  authors: "Mingzhe Liu, Mingyue Guo, Yangyang Fu, Zheng O'Neill, Yuan Gao"
+  year: 2024
+  link:
+    url: https://doi.org/10.1016/j.apenergy.2024.123753
+    display: "Applied Energy (2024)"
+  highlight: 1
+  long: 0
+
+- title: "Experimental and numerical investigation of energy saving potential of centralized and decentralized pumping systems"
+  image:
+  description: "Experimental and numerical comparison of centralized and decentralized pumping systems and their energy-saving potential in HVAC water distribution."
+  authors: "Mingzhe Liu, Ryozo Ooka, Wonjun Choi, Shintaro Ikeda"
+  year: 2019
+  link:
+    url: https://doi.org/10.1016/j.apenergy.2019.113359
+    display: "Applied Energy (2019)"
+  highlight: 1
+  long: 0

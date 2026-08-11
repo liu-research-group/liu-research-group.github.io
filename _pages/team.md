@@ -34,15 +34,6 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **!**
-
-
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students).
-{::comment}
-, [alumni](#alumni), [lab visitors](#lab-visitors).
-{:/comment}
-
-
 ## Staff
 {% for member in site.data.team_members %}
 
@@ -53,14 +44,18 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   
   <div style='margin-left:20%;'>
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i>
+  <br><a href="mailto:{{ member.email }}">{{ member.email }}</a>
+  {% if member.education1 %}<br><small>{{ member.education1 }}</small>{% endif %}
+  {% if member.education2 %}<br><small>{{ member.education2 }}</small>{% endif %}
+  {% if member.education3 %}<br><small>{{ member.education3 }}</small>{% endif %}
   
   <p style="font-size:.8em">{{ member.short_bio }}</p>
   </div>
 
   <p style="clear:both;"></p>
   <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
-  {{ member.name }}'s Personal Website</button>
+  {{ member.name }} on Google Scholar</button>
 
 </div>
 
@@ -71,103 +66,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-### Master and Bachelor Students
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+<p>&nbsp;</p>
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+## Our team is forming
 
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i> <!-- <br>email: <{{ member.email }}></i> -->
-  <br> {{ member.education1 }}
-</div>
+The Liu Research Group is brand new and actively recruiting its founding members. We have multiple fully funded PhD positions open, starting Spring 2027 or later, and we welcome motivated MS and undergraduate researchers.
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-## Alumni
-### Former PhDs and Postdocs
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.position }}</i> 
-  <br> ({{ member.info_current }}) 
-  <br> ORCID: [{{member.ORCID}}](https://orcid.org/{{member.ORCID}})
-  <br> [Website]({{member.website}})
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-### Former visitors, BSc/MSc students
-<div class="row">
-
-{::comment}
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-{:/comment}
-
-
-<div class="col-sm-12 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-<i>{{ member.info }}</i>
-{% endfor %}
-</div>
-
-{::comment}
-<div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
-{:/comment}
-
-</div>
-
+If you are a prospective PhD, MS or undergraduate researcher, we would love to hear from you &mdash; see [Openings](/openings) for what we look for and how to apply.
