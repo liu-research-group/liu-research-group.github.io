@@ -19,17 +19,17 @@ Our work spans four connected thrusts.
 <div class="row">
 {% assign n = 0 %}
 {% for theme in site.data.research_themes %}
-  {% if theme.highlight == 1 %}
-    {% assign even_odd = n | modulo: 2 %}
-    {% if even_odd == 0 %}<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>{% endif %}
-  <div class="col-sm-6 clearfix">
-    <div class="well" style="min-height: 210px;">
-      <h4 style="margin-top:0;"><a href="{{ site.url }}{{ site.baseurl }}/research#{{ theme.key }}">{{ theme.title }}</a></h4>
-      <p>{{ theme.description }}</p>
-    </div>
-  </div>
-    {% assign n = n | plus: 1 %}
-  {% endif %}
+{% if theme.highlight == 1 %}
+{% assign even_odd = n | modulo: 2 %}
+{% if even_odd == 0 %}<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>{% endif %}
+<div class="col-sm-6 clearfix">
+<div class="well" style="min-height: 215px;">
+<h4 style="margin-top:0;"><a href="{{ site.url }}{{ site.baseurl }}/research#{{ theme.key }}">{{ theme.title }}</a></h4>
+<p>{{ theme.description }}</p>
+</div>
+</div>
+{% assign n = n | plus: 1 %}
+{% endif %}
 {% endfor %}
 </div>
 

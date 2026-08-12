@@ -4,6 +4,7 @@ layout: textlay
 excerpt: "Liu Research Group -- Projects."
 sitemap: false
 permalink: /projects/
+published: false
 # NOTE: intentionally NOT in the navbar until the ASHRAE project details land.
 # Re-add to _includes/header.html once this page is complete.
 ---

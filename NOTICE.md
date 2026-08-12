@@ -26,6 +26,26 @@ bibliography were carried over.
 - `bin/deploy`, which deleted the working tree and force-pushed `gh-pages`
 - Their CI workflows, which used the removed `::set-output` command
 
+## Upstream copyright notices
+
+Neither upstream repository ships a `LICENSE` file; GitHub's licence API reports
+"Not Found" for both, and their MIT grants are asserted in prose. The notices are
+reproduced verbatim here so they travel with the code.
+
+**Allan Lab** — from the README of <https://github.com/mpa139/allanlab>:
+
+> Copyright Allan Lab. Code released under the MIT License.
+
+**Uppsala Secure Learning and Control Lab** — from their about-the-website page
+at <https://uslc-lab.github.io/aboutwebsite.html>:
+
+> It was adapted from different sources, primarily Allan's Lab, and refactored to
+> use Jekyll Scholar. [...] Code released under the MIT License.
+
+Both notices are retained under the terms of the MIT licence in [LICENSE](LICENSE),
+which requires that the copyright notice and permission notice accompany copies
+and substantial portions of the software.
+
 ## What was retained from upstream
 
 The Jekyll layouts, includes, SASS, and the `_plugins` directory, all modified
