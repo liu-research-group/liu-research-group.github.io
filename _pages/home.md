@@ -6,13 +6,11 @@ sitemap: false
 permalink: /
 ---
 
-### Intelligent building energy systems
+# Intelligent building energy systems
 
 We design intelligent, low-carbon building energy systems &mdash; uniting physics-based modeling, machine learning, and predictive control to make buildings efficient, flexible, and grid-interactive.
 
-The **Liu Research Group** is launching in **Spring 2027** in the Department of Civil, Construction and Environmental Engineering at the University of Alabama, led by Mingzhe Liu.
-
-### Research
+## Research
 
 Our work spans four connected thrusts.
 
@@ -24,7 +22,7 @@ Our work spans four connected thrusts.
 {% if even_odd == 0 %}<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>{% endif %}
 <div class="col-sm-6 clearfix">
 <div class="well" style="min-height: 215px;">
-<h4 style="margin-top:0;"><a href="{{ site.url }}{{ site.baseurl }}/research#{{ theme.key }}">{{ theme.title }}</a></h4>
+<h3 style="margin-top:0; font-size:18px;"><a href="{{ site.url }}{{ site.baseurl }}/research#{{ theme.key }}">{{ theme.title }}</a></h3>
 <p>{{ theme.description }}</p>
 </div>
 </div>
@@ -35,7 +33,7 @@ Our work spans four connected thrusts.
 
 More detail, with representative papers for each thrust, is on the [Research page]({{ site.url }}{{ site.baseurl }}/research).
 
-### Where we sit
+## Where we sit
 
 We are a new group in the [Department of Civil, Construction and Environmental Engineering](https://cce.eng.ua.edu/) at the [University of Alabama](https://www.ua.edu/), in Tuscaloosa, Alabama. Our work sits at the intersection of thermal systems, machine learning, and control, and we collaborate across building science, energy systems, and computing.
 
