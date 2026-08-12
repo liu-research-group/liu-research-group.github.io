@@ -8,8 +8,9 @@ permalink: /allnews.html
 
 # News
 
-{% for article in site.data.news %}
-{{ article.date }}
+{% assign news_items = site.data.news | sort: 'date' | reverse %}
+{% for article in news_items %}
+{{ article.date | date: "%-d %B %Y" }}
 {{ article.headline | markdownify}}
 <br/>
 

@@ -1,5 +1,8 @@
-- date: 28 June 2026
-  headline: "Our paper \"Design and Operation of PCM-Embedded Radiant Cooling Systems for Enhanced Energy Flexibility\" has received a [Poster Presentation Award](https://www.ashrae.org/about/news/2026/ashrae-recognizes-outstanding-member-achievements-at-annual-conference) at the 2026 ASHRAE Annual Conference in Austin, Texas. Congratulations to all the co-authors!"
+# Dates are ISO (YYYY-MM-DD) so the templates can sort them. They are rendered
+# as e.g. "11 August 2026". Order here does not matter -- newest is shown first.
 
-- date: 11 August 2026
+- date: 2026-08-11
   headline: "The Liu Research Group is launching in Spring 2027 in the Department of Civil, Construction and Environmental Engineering at the University of Alabama. We are looking for our founding students, so if this sounds like you, take a look at [Openings](/openings) and get in touch!"
+
+- date: 2026-06-28
+  headline: "Our paper \"Design and Operation of PCM-Embedded Radiant Cooling Systems for Enhanced Energy Flexibility\" has received a [Poster Presentation Award](https://www.ashrae.org/about/news/2026/ashrae-recognizes-outstanding-member-achievements-at-annual-conference) at the 2026 ASHRAE Annual Conference in Austin, Texas. Congratulations to all the co-authors!"

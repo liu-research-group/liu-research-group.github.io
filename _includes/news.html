@@ -2,8 +2,9 @@
 <div class="well">
 <h4>News</h4>
 
-{% for article in site.data.news limit:5 %}
-<p>{{ article.date }}</p>
+{% assign news_items = site.data.news | sort: 'date' | reverse %}
+{% for article in news_items limit:5 %}
+<p>{{ article.date | date: "%-d %B %Y" }}</p>
 {{ article.headline | markdownify }}
 {% endfor %}
 
