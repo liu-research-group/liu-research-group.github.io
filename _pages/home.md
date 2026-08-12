@@ -14,7 +14,26 @@ The **Liu Research Group** is launching in **Spring 2027** in the Department of 
 
 ### Research
 
-Our work spans four connected thrusts: high-efficiency **heat pumps and thermal energy storage**; **AI and scientific machine learning** for building modeling; **building and industrial decarbonization**; and **intelligent control and building-to-grid integration**. You can find an overview at our [Research page]({{ site.url }}{{ site.baseurl }}/research).
+Our work spans four connected thrusts.
+
+<div class="row">
+{% assign n = 0 %}
+{% for theme in site.data.research_themes %}
+  {% if theme.highlight == 1 %}
+    {% assign even_odd = n | modulo: 2 %}
+    {% if even_odd == 0 %}<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>{% endif %}
+  <div class="col-sm-6 clearfix">
+    <div class="well" style="min-height: 210px;">
+      <h4 style="margin-top:0;"><a href="{{ site.url }}{{ site.baseurl }}/research#{{ theme.key }}">{{ theme.title }}</a></h4>
+      <p>{{ theme.description }}</p>
+    </div>
+  </div>
+    {% assign n = n | plus: 1 %}
+  {% endif %}
+{% endfor %}
+</div>
+
+More detail, with representative papers for each thrust, is on the [Research page]({{ site.url }}{{ site.baseurl }}/research).
 
 ### Where we sit
 
