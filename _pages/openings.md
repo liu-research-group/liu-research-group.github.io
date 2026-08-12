@@ -10,7 +10,7 @@ permalink: /openings
 
 The Liu Research Group is recruiting its founding members. If you are excited about heat pumps and thermal energy storage, AI and scientific machine learning for buildings, decarbonization, or intelligent building-to-grid control, let's talk.
 
-**We are always actively recruiting PhD students**, starting Spring 2027 or later. Funded positions include tuition and a competitive stipend.
+**We are actively recruiting fully funded PhD students**, starting Spring 2027 or later. Funding includes tuition and a competitive stipend.
 
 ## Who we are looking for
 
@@ -22,7 +22,7 @@ A strong interest in building energy systems, and one or more of: thermodynamics
 
 Interested in thesis research on building energy systems.
 
-### Undergraduate researchers
+### Undergraduate students
 
 University of Alabama students looking for hands-on research experience.
 
