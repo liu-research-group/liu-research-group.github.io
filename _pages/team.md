@@ -40,7 +40,7 @@ permalink: /team/
 <div class="row">
 
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" alt="{{ member.name }}" />
   
   <div style='margin-left:20%;'>
   <h4>{{ member.name }}</h4>
