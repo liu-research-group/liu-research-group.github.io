@@ -57,9 +57,8 @@ permalink: /team/
 
   <p style="clear:both;"></p>
   <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
-  {{ member.name }} on Google Scholar</button>
+  Google Scholar</button>
   {% if member.linkedin %}<button class="button black" onclick="window.location.href='{{ member.linkedin }}'" type="button">LinkedIn</button>{% endif %}
-  {% if member.github %}<button class="button black" onclick="window.location.href='{{ member.github }}'" type="button">GitHub</button>{% endif %}
 
 </div>
 
