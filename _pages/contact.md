@@ -14,7 +14,7 @@ For everything else, email is the best way to reach us.
 
 ### Email
 
-[liumz311@gmail.com](mailto:liumz311@gmail.com)
+[mingzhe.liu@tamu.edu](mailto:mingzhe.liu@tamu.edu)
 
 ### Address
 

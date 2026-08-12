@@ -28,7 +28,7 @@ University of Alabama students looking for hands-on research experience.
 
 ## How to apply
 
-Email **[liumz311@gmail.com](mailto:liumz311@gmail.com)** with:
+Email **[mingzhe.liu@tamu.edu](mailto:mingzhe.liu@tamu.edu)** with:
 
 1. Your CV,
 2. Your transcript (unofficial is fine), and
