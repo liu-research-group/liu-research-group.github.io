@@ -75,6 +75,6 @@ permalink: /team/
 
 ## Our team is forming
 
-The Liu Research Group is brand new and actively recruiting its founding members. We have multiple fully funded PhD positions open, starting Spring 2027 or later, and we welcome motivated MS and undergraduate researchers.
+The Liu Research Group is brand new and always actively recruiting. We are looking for funded PhD students starting Spring 2027 or later, and we welcome motivated MS and undergraduate researchers.
 
 If you are a prospective PhD, MS or undergraduate researcher, we would love to hear from you &mdash; see [Openings](/openings) for what we look for and how to apply.

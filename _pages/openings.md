@@ -10,7 +10,7 @@ permalink: /openings
 
 The Liu Research Group is recruiting its founding members. If you are excited about heat pumps and thermal energy storage, AI and scientific machine learning for buildings, decarbonization, or intelligent building-to-grid control, let's talk.
 
-**We have multiple fully funded PhD positions open, starting Spring 2027 or later.** Funding covers tuition and a competitive stipend.
+**We are always actively recruiting PhD students**, starting Spring 2027 or later. Funded positions include tuition and a competitive stipend.
 
 ## Who we are looking for
 

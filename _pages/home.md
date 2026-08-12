@@ -37,4 +37,4 @@ More detail, with representative papers for each thrust, is on the [Research pag
 
 We are a new group in the [Department of Civil, Construction and Environmental Engineering](https://cce.eng.ua.edu/) at the [University of Alabama](https://www.ua.edu/), in Tuscaloosa, Alabama. Our work sits at the intersection of thermal systems, machine learning, and control, and we collaborate across building science, energy systems, and computing.
 
-**We are recruiting our founding students &mdash; multiple fully funded PhD positions are open, starting Spring 2027 or later, and we welcome motivated MS and undergraduate researchers** [(more info)]({{ site.url }}{{ site.baseurl }}/openings)**!**
+**We are always actively recruiting our founding students &mdash; funded PhD positions starting Spring 2027 or later, and we welcome motivated MS and undergraduate researchers** [(more info)]({{ site.url }}{{ site.baseurl }}/openings)**!**
