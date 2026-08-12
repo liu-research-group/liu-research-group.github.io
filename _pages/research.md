@@ -39,7 +39,7 @@ Each theme below lists representative papers; the full list is on our [Publicati
   {% if theme-item.authors %}<p>Team members: <em>{{ theme-item.authors }}</em></p>{% endif %}
   {% if theme-item.news1 %}<p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>{% endif %}
   {% if theme-item.news2 %}<p>{{ theme-item.news2 }}</p>{% endif %}
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
+  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" role="button" aria-expanded="false">Selected papers</a>
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag -%}
@@ -61,7 +61,7 @@ Each theme below lists representative papers; the full list is on our [Publicati
   {% if theme-item.authors %}<p>Team members: <em>{{ theme-item.authors }}</em></p>{% endif %}
   {% if theme-item.news1 %}<p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>{% endif %}
   {% if theme-item.news2 %}<p>{{ theme-item.news2 }}</p>{% endif %}
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
+  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" role="button" aria-expanded="false">Selected papers</a>
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag or y == theme-item.taga -%}

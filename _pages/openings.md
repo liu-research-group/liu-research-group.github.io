@@ -36,4 +36,4 @@ Email **[liumz311@gmail.com](mailto:liumz311@gmail.com)** with:
 
 Please put **"Prospective student &mdash; [your name]"** in the subject line.
 
-Prospective PhD applicants should also apply through the [Department of Civil, Construction and Environmental Engineering](https://cce.eng.ua.edu/) at the University of Alabama. Get in touch before you apply &mdash; it helps to know you are coming.
+Prospective PhD applicants should also apply through the University of Alabama Graduate School &mdash; see [CCEE graduate admissions](https://cce.eng.ua.edu/graduate/graduate-admissions/) for requirements and deadlines, and the [Civil Engineering Ph.D. catalog entry](https://catalog.ua.edu/graduate/engineering/civil-construction-environmental/civil-phd/) for degree requirements. Get in touch before you apply &mdash; it helps to know you are coming.

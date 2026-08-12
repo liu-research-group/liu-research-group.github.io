@@ -19,6 +19,15 @@ include:
   - .htaccess
   - _pages
 
+exclude:
+  - README.md
+  - LICENSE
+  - NOTICE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .ruby-version
+
 sass:
   sass_dir: _sass
 
