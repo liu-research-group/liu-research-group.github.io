@@ -39,11 +39,11 @@ permalink: /team/
 
 <div class="row">
 
-<div class="col-sm-3 col-xs-6">
+<div class="col-xs-12 col-sm-3">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="width:100%; max-width:200px;" alt="Portrait of {{ member.name }}" />
 </div>
 
-<div class="col-sm-9">
+<div class="col-xs-12 col-sm-9">
   <div>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>

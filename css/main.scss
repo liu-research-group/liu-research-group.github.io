@@ -225,3 +225,12 @@ $pub-btn-pdf:      #444B54;  // neutral slate
     float: none !important;
   }
 }
+
+/* Team portrait: full-width column on phones, so centre the capped image. */
+@media (max-width: 767px) {
+  .col-xs-12.col-sm-3 > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
