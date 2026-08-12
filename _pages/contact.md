@@ -18,9 +18,9 @@ For everything else, email is the best way to reach us.
 
 ### Address
 
-Department of Civil, Construction and Environmental Engineering
-The University of Alabama
-Tuscaloosa, AL 35487
+Department of Civil, Construction and Environmental Engineering  
+The University of Alabama  
+Tuscaloosa, AL 35487  
 United States
 
 Office location to be announced (Spring 2027).
