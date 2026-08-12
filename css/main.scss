@@ -166,8 +166,20 @@ firstp {
   scroll-margin-top: #{$navbar-height + 20px};
 }
 
-/* Publication buttons: readable contrast plus explicit hover/focus. */
-.btn-doi, .btn-abstract, .btn-arxiv, .btn-pdf, .btn-bib {
+/* Publication buttons.
+   The template colour-coded these (DOI red, BIB green, ABS teal, ARXIV blue) but
+   painted them with $gray-lighter text, so every one failed WCAG AA -- ARXIV at
+   1.59:1. The coding is worth keeping, so the hues are retained and darkened
+   until each passes with white text. Measured on white:
+     DOI 7.90:1   BIB 5.42:1   ABS 6.40:1   ARXIV 5.67:1   PDF 8.27:1          */
+
+$pub-btn-doi:      #9E1B32;  // UA crimson -- primary action
+$pub-btn-bib:      #1B7A2F;  // green, was #28B62C
+$pub-btn-abstract: #036A6C;  // teal,  was #03888a
+$pub-btn-arxiv:    #1F6F8B;  // blue,  was #75CAEB
+$pub-btn-pdf:      #444B54;  // neutral slate
+
+@mixin pub-btn($bg) {
   display: inline-block;
   padding: 2px 10px;
   margin-right: 4px;
@@ -176,21 +188,28 @@ firstp {
   font-weight: 700;
   letter-spacing: 0.02em;
   text-decoration: none;
-  background-color: $brand-primary;
+  white-space: nowrap;
+  background-color: $bg;
   color: #fff !important;
-  border: 1px solid darken($brand-primary, 8%);
+  border: 1px solid darken($bg, 8%);
 
   &:hover,
   &:focus {
-    background-color: darken($brand-primary, 10%);
+    background-color: darken($bg, 10%);
     color: #fff !important;
     text-decoration: none;
   }
   &:focus-visible {
-    outline: 2px solid darken($brand-primary, 20%);
+    outline: 2px solid darken($bg, 20%);
     outline-offset: 2px;
   }
 }
+
+.btn-doi      { @include pub-btn($pub-btn-doi); }
+.btn-bib      { @include pub-btn($pub-btn-bib); }
+.btn-abstract { @include pub-btn($pub-btn-abstract); }
+.btn-arxiv    { @include pub-btn($pub-btn-arxiv); }
+.btn-pdf      { @include pub-btn($pub-btn-pdf); }
 
 /* PI portrait: stop it filling a phone screen. */
 #gridid img,
