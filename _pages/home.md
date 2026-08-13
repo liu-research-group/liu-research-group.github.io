@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-# Intelligent building energy systems
+# Welcome to our group
 
-We design intelligent, low-carbon building energy systems &mdash; uniting physics-based modeling, machine learning, and predictive control to make buildings efficient, flexible, and grid-interactive.
+<p class="lead">We work on intelligent building energy systems &mdash; uniting physics-based modeling, machine learning, and predictive control to make buildings efficient, flexible, and grid-interactive.</p>
 
 ## Research
 
