@@ -37,10 +37,6 @@ p.byline {
 }
 
 
-.legacy-pubtit-unused {
-	font-weight: bold;
-}
-
 firstp {
 }
 
@@ -255,10 +251,6 @@ h3.pubtit {
   color: $brand-primary;
 }
 
-.pub-highlight {
-  height: 100%;
-}
-
 /* Skip link: visible only when focused by keyboard. */
 .skip-link {
   position: absolute;
@@ -273,9 +265,48 @@ h3.pubtit {
   }
 }
 
-/* Footer readability on phones. */
+/* Profile links use native anchors so their destination can be copied or opened
+   in a new tab without JavaScript. */
+.profile-link {
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 5px 16px;
+  border: 2px solid #555;
+  background: #fff;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &:hover,
+  &:focus,
+  &:focus-visible {
+    background: #555;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* Footer headings and responsive spacing. */
+#footer .footer-heading {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#footer address {
+  margin-bottom: 0;
+  font-style: normal;
+  line-height: inherit;
+}
+
 @media (max-width: 767px) {
-  footer .col-sm-4 {
-    margin-bottom: 18px;
+  #footer .col-sm-4 {
+    margin-bottom: 22px;
+  }
+
+  #footer .col-sm-4:last-child {
+    margin-bottom: 0;
   }
 }

@@ -119,7 +119,7 @@
         <text variable="title" font-style="italic"/>
       </if>
       <else>
-        <text variable="title" font-style="bold" quotes="true"/>
+        <text variable="title" quotes="true"/>
       </else>
     </choose>
   </macro>

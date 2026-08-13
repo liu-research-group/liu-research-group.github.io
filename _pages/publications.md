@@ -31,24 +31,24 @@ A few papers that best represent what the group works on. The complete list foll
 <div class="col-md-6 clearfix">
  <div class="well">
   <h3 class="pubtit">{{ publi.title }}</h3>
-  {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />{% endif %}
+  {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" alt="Illustration for {{ publi.title | escape }}" />{% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   {% if publi.link.url %}<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>{% endif %}
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+  {% if publi.news1 %}<p class="text-danger"><strong>{{ publi.news1 }}</strong></p>{% endif %}
+  {% if publi.news2 %}<p>{{ publi.news2 }}</p>{% endif %}
  </div>
 </div>
 {% else %}
 <div class="col-md-6 clearfix">
  <div class="well">
   <h3 class="pubtit">{{ publi.title }}</h3>
-  {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="40%" style="float: left" />{% endif %}
+  {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="40%" style="float: left" alt="Illustration for {{ publi.title | escape }}" />{% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   {% if publi.link.url %}<p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>{% endif %}
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+  {% if publi.news1 %}<p class="text-danger"><strong>{{ publi.news1 }}</strong></p>{% endif %}
+  {% if publi.news2 %}<p>{{ publi.news2 }}</p>{% endif %}
  </div>
 </div>
 
@@ -67,9 +67,6 @@ A few papers that best represent what the group works on. The complete list foll
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-<p> &nbsp; </p>
-
 
 ## List of Publications
 

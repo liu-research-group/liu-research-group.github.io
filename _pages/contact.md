@@ -26,7 +26,7 @@ United States
 Office location to be announced (Spring 2027).
 
 <iframe
-  width="100%" height="360" frameborder="0" style="border:0" allowfullscreen
+  height="360" style="border:0; width:100%;" loading="lazy"
   title="University of Alabama, Tuscaloosa"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-87.5591%2C33.2040%2C-87.5191%2C33.2240&amp;layer=mapnik&amp;marker=33.2140%2C-87.5391">
 </iframe>

@@ -32,14 +32,14 @@ Each theme below lists representative papers; the full list is on our [Publicati
 <div class="col-sm-6 clearfix" id="{{ theme-item.key }}">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" alt="{{ theme-item.title | escape }}" />
   {% endif %}
   <h3 class="pubtit">{{ theme-item.title }}</h3>
   <p>{{ theme-item.description }}</p>
   {% if theme-item.authors %}<p>Team members: <em>{{ theme-item.authors }}</em></p>{% endif %}
   {% if theme-item.news1 %}<p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>{% endif %}
   {% if theme-item.news2 %}<p>{{ theme-item.news2 }}</p>{% endif %}
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" role="button" aria-expanded="false">Selected papers</a>
+  <a data-toggle="collapse" href="#{{theme-item.key}}-bib" class="btn-bib" role="button" aria-expanded="false" aria-controls="{{theme-item.key}}-bib">Selected papers</a>
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag -%}
@@ -54,14 +54,14 @@ Each theme below lists representative papers; the full list is on our [Publicati
 <div class="col-sm-6 clearfix" id="{{ theme-item.key }}">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" alt="{{ theme-item.title | escape }}" />
   {% endif %}
   <h3 class="pubtit">{{ theme-item.title }}</h3>
   {{ theme-item.description }}
   {% if theme-item.authors %}<p>Team members: <em>{{ theme-item.authors }}</em></p>{% endif %}
   {% if theme-item.news1 %}<p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>{% endif %}
   {% if theme-item.news2 %}<p>{{ theme-item.news2 }}</p>{% endif %}
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" role="button" aria-expanded="false">Selected papers</a>
+  <a data-toggle="collapse" href="#{{theme-item.key}}-bib" class="btn-bib" role="button" aria-expanded="false" aria-controls="{{theme-item.key}}-bib">Selected papers</a>
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag or y == theme-item.taga -%}
@@ -84,11 +84,6 @@ Each theme below lists representative papers; the full list is on our [Publicati
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-<p> &nbsp; </p>
-
-
-[//]: # (**Watermarking schemes for attack detection:**)
 
 ## Interested in joining us?
 

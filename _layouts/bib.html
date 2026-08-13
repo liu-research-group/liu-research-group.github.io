@@ -14,21 +14,21 @@
         </div>
 -->
         <!-- Entry bib key -->
-        <div class="col-sm-12" display="block">
+        <div class="col-sm-12">
         {{ reference | newline_to_br  }}
     
           <br/>
-          {% if entry.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/assets/papers/{{ entry.pdf }}.pdf" target="_blank" class="btn-pdf" role="button">PDF</a>{% endif %}
+          {% if entry.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/assets/papers/{{ entry.pdf }}.pdf" target="_blank" rel="noopener" class="btn-pdf" role="button">PDF</a>{% endif %}
 
           
 
           {% if entry.abstract %} 
-            <a data-toggle="collapse" href="#{{key}}-abstract" class="btn-abstract" role="button">ABS</a>
+            <a data-toggle="collapse" href="#{{key}}-abstract" class="btn-abstract" role="button" aria-expanded="false" aria-controls="{{key}}-abstract">ABS</a>
           {% endif %}
 
           {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener" class="btn-doi" role="button">Article</a> {% elsif entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener" class="btn-doi" role="button">Article</a> {% endif %}
 
-          {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" class="btn-arxiv" role="button">ARXIV</a> {% endif %}
+          {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" rel="noopener" class="btn-arxiv" role="button">ARXIV</a> {% endif %}
 
           
           {% if entry.video %} 
@@ -37,7 +37,7 @@
 
 
           {% if bib_show %} 
-            <a data-toggle="collapse" href="#{{key}}-bib" class="btn-bib" role="button">BIB</a>
+            <a data-toggle="collapse" href="#{{key}}-bib" class="btn-bib" role="button" aria-expanded="false" aria-controls="{{key}}-bib">BIB</a>
           {% endif %}
 
 
