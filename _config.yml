@@ -20,6 +20,7 @@ include:
   - _pages
 
 exclude:
+  - lab_icon.png   # source art for the logos; not served
   - README.md
   - LICENSE
   - NOTICE.md
