@@ -37,7 +37,7 @@ p.byline {
 }
 
 
-pubtit {
+.legacy-pubtit-unused {
 	font-weight: bold;
 }
 
@@ -232,5 +232,50 @@ $pub-btn-pdf:      #444B54;  // neutral slate
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* Homepage research cards: equal heights are useful on a multi-column grid, but
+   on a phone the cards are already full width and a fixed height just adds
+   blank space. */
+.theme-card {
+  @media (min-width: 768px) {
+    min-height: 215px;
+  }
+}
+
+/* Publication highlight titles. These used a custom element, which is
+   not valid HTML; they are now h3 under the "Group Highlights" h2. */
+h3.pubtit {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: $brand-primary;
+}
+
+.pub-highlight {
+  height: 100%;
+}
+
+/* Skip link: visible only when focused by keyboard. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  padding: 10px 16px;
+  background: $brand-primary;
+  color: #fff;
+  &:focus {
+    left: 0;
+  }
+}
+
+/* Footer readability on phones. */
+@media (max-width: 767px) {
+  footer .col-sm-4 {
+    margin-bottom: 18px;
   }
 }

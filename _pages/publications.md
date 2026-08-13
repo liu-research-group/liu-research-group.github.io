@@ -28,9 +28,9 @@ A few papers that best represent what the group works on. The complete list foll
 {% endif %}
 
 {% if publi.long == 1 %}
-<div class="col-sm-12 clearfix">
+<div class="col-md-6 clearfix">
  <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
+  <h3 class="pubtit">{{ publi.title }}</h3>
   {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />{% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
@@ -40,9 +40,9 @@ A few papers that best represent what the group works on. The complete list foll
  </div>
 </div>
 {% else %}
-<div class="col-sm-12 clearfix">
+<div class="col-md-6 clearfix">
  <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
+  <h3 class="pubtit">{{ publi.title }}</h3>
   {% if publi.image %}<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="40%" style="float: left" />{% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>

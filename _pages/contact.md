@@ -12,11 +12,11 @@ permalink: /contact/
 
 For everything else, email is the best way to reach us.
 
-### Email
+## Email
 
 [mingzhe.liu@tamu.edu](mailto:mingzhe.liu@tamu.edu)
 
-### Address
+## Address
 
 Department of Civil, Construction and Environmental Engineering  
 The University of Alabama  

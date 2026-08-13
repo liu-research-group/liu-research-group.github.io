@@ -21,7 +21,7 @@ Our work spans four connected thrusts.
 {% assign even_odd = n | modulo: 2 %}
 {% if even_odd == 0 %}<div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>{% endif %}
 <div class="col-sm-6 clearfix">
-<div class="well" style="min-height: 215px;">
+<div class="well theme-card">
 <h3 style="margin-top:0; font-size:18px;"><a href="{{ site.url }}{{ site.baseurl }}/research#{{ theme.key }}">{{ theme.title }}</a></h3>
 <p>{{ theme.description }}</p>
 </div>

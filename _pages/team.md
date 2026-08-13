@@ -34,7 +34,7 @@ permalink: /team/
 
 # Group Members
 
-## Staff
+## Principal Investigator
 {% for member in site.data.team_members %}
 
 <div class="row">
@@ -45,20 +45,19 @@ permalink: /team/
 
 <div class="col-xs-12 col-sm-9">
   <div>
-  <h4>{{ member.name }}</h4>
+  <h3>{{ member.name }}</h3>
   <i>{{ member.info }}</i>
   <br><a href="mailto:{{ member.email }}">{{ member.email }}</a>
   {% if member.education1 %}<br><small>{{ member.education1 }}</small>{% endif %}
   {% if member.education2 %}<br><small>{{ member.education2 }}</small>{% endif %}
   {% if member.education3 %}<br><small>{{ member.education3 }}</small>{% endif %}
   
-  <p style="font-size:.8em">{{ member.short_bio }}</p>
+  <p>{{ member.short_bio }}</p>
   </div>
 
   <p style="clear:both;"></p>
-  <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
-  Google Scholar</button>
-  {% if member.linkedin %}<button class="button black" onclick="window.location.href='{{ member.linkedin }}'" type="button">LinkedIn</button>{% endif %}
+  <a class="button black" href="{{ member.website }}" target="_blank" rel="noopener">Google Scholar</a>
+  {% if member.linkedin %}<a class="button black" href="{{ member.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
 
 </div>
 

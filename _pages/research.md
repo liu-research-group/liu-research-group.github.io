@@ -34,7 +34,7 @@ Each theme below lists representative papers; the full list is on our [Publicati
  {% if theme-item.hasimage == 1 %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
   {% endif %}
-  <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
+  <h3 class="pubtit">{{ theme-item.title }}</h3>
   <p>{{ theme-item.description }}</p>
   {% if theme-item.authors %}<p>Team members: <em>{{ theme-item.authors }}</em></p>{% endif %}
   {% if theme-item.news1 %}<p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>{% endif %}
@@ -56,7 +56,7 @@ Each theme below lists representative papers; the full list is on our [Publicati
  {% if theme-item.hasimage == 1 %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
   {% endif %}
-  <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
+  <h3 class="pubtit">{{ theme-item.title }}</h3>
   {{ theme-item.description }}
   {% if theme-item.authors %}<p>Team members: <em>{{ theme-item.authors }}</em></p>{% endif %}
   {% if theme-item.news1 %}<p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>{% endif %}
@@ -90,4 +90,6 @@ Each theme below lists representative papers; the full list is on our [Publicati
 
 [//]: # (**Watermarking schemes for attack detection:**)
 
-### ... and more.
+## Interested in joining us?
+
+We are actively recruiting fully funded PhD students, and we welcome motivated MS and undergraduate students. See [Openings](/openings) for what we look for and how to apply, or browse [all our publications](/publications/).

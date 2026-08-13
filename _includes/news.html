@@ -1,6 +1,6 @@
 
 <div class="well">
-<h4>News</h4>
+<h2>News</h2>
 
 {% assign news_items = site.data.news | sort: 'date' | reverse %}
 {% for article in news_items limit:5 %}
@@ -8,6 +8,6 @@
 {{ article.headline | markdownify }}
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<p><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></p>
 
     </div>
