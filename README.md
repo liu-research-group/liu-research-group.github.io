@@ -10,7 +10,7 @@ Allan Lab template — see [NOTICE.md](NOTICE.md) for full provenance.
 
 ## Running it locally
 
-Ruby 3.2.2 is pinned in `.ruby-version`; gem versions are pinned in `Gemfile`
+Ruby 3.2.11 is pinned in `.ruby-version`; gem versions are pinned in `Gemfile`
 and locked in `Gemfile.lock`.
 
 ```bash

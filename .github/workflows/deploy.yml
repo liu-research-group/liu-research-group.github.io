@@ -28,7 +28,7 @@ jobs:
         with:
           # ruby/setup-ruby@v1 has no `ruby-version-file` input; the value must be
           # given explicitly. Keep this in step with .ruby-version.
-          ruby-version: '3.2.2'
+          ruby-version: '3.2.11'
           bundler-cache: true
 
       - name: Configure Pages
