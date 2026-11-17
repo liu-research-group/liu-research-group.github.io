@@ -26,9 +26,11 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # ruby/setup-ruby@v1 has no `ruby-version-file` input; the value must be
-          # given explicitly. Keep this in step with .ruby-version.
-          ruby-version: '3.2.11'
+          # Pin the series, not a patch release: newer runner images carry only
+          # the latest patch of each series, so an exact pin (3.2.2) broke the
+          # build when ubuntu-latest moved to Ubuntu 26.04. Keep the series in
+          # step with .ruby-version, which names the exact patch for local use.
+          ruby-version: '3.4'
           bundler-cache: true
 
       - name: Configure Pages
