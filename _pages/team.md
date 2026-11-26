@@ -48,7 +48,7 @@ The Liu Research Group is brand new and actively recruiting. We are looking for 
 
 If you are a prospective PhD, MS or undergraduate student, we would love to hear from you &mdash; see [Openings](/openings) for what we look for and how to apply.
 
-## Lab Mascot
+## Treat-Funded Research Assistant
 
 <div class="row">
 
