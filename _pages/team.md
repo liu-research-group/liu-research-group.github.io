@@ -47,3 +47,22 @@ permalink: /team/
 The Liu Research Group is brand new and actively recruiting. We are looking for fully funded PhD students starting Spring 2027 or later, and we welcome motivated MS and undergraduate students.
 
 If you are a prospective PhD, MS or undergraduate student, we would love to hear from you &mdash; see [Openings](/openings) for what we look for and how to apply.
+
+## Lab Mascot
+
+<div class="row">
+
+<div class="col-xs-12 col-sm-3">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/ariel.jpg" class="img-responsive" style="width:100%; max-width:200px;" alt="Illustrated portrait of Ariel, a smiling Jack Russell terrier" />
+</div>
+
+<div class="col-xs-12 col-sm-9">
+  <div>
+  <h3>Ariel</h3>
+  <i>Chief Morale Officer</i>
+
+  <p>Ariel is a Jack Russell terrier with seemingly endless energy, the one energy source in the lab we will never try to reduce. Her research interests include thermal comfort, which she studies by finding the sunniest spot in any building, and demand response, although her own demand for treats has so far shown no flexibility. She holds open office hours for anyone who needs a break.</p>
+  </div>
+</div>
+
+</div>
